@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CalculadoraIMC{
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         float IMC=0, peso=50, altura=0;
         
         Scanner datos = new Scanner(System.in);
