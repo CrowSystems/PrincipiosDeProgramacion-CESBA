@@ -37,7 +37,7 @@ public class PRE_EXAMEN {
             System.out.println("Selecciona una Opcion Valida");
         }
         System.out.println("El resultado es: " + resultado);
-        
+        sc.close();
     }
 }
     
