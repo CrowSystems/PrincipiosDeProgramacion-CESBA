@@ -1,14 +1,25 @@
+import java.util.Scanner;
+
 public class PREMISA3 {
-    //Un usuario ingresa su edad y el programa evalua si es mayor de edad o no para darle acceso.
+    /* Determinar si una persona puede acceder a un sitio web 
+     * basado en su edad y mostrar un mensaje de acceso conseguido
+     * o denegado.
+     * */
     public static void main(String[] args){
-        //definicion de la variable tipo int dado que es un numero entero la edad
-        int edad = 18;
+        Scanner sc = new Scanner(System.in);
         
+        //Declaración de variables
+        int edad=0;
+        
+        System.out.println("Ingresa tu edad: ");
+        edad = sc.nextInt();
+
         //Inicia la condición
         if(edad >= 18) {
             System.out.println("ACCESO CONSEGUIDO" );
         } else {
             System.out.println("ACCESO DENEGADO" );
         }
+        sc.close();
     }
 }
