@@ -40,5 +40,6 @@ package Ciclos;
          default:
          System.out.println("No existe la Opción seleccionada.");
       }
+      sc.close();
    }
 }

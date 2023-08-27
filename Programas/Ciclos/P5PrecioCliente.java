@@ -7,8 +7,6 @@ package Ciclos;
 
  import java.util.Scanner;
 
-import javax.management.monitor.Monitor;
-
  public class P5PrecioCliente {
 
     public static void main(String[] args){
@@ -52,5 +50,6 @@ import javax.management.monitor.Monitor;
                 System.out.println("La opción seleccionada no existe.");
             break;
         }
+        sc.close();
     }
  }
