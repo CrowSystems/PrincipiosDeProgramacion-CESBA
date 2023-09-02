@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Crea un programa que tome una calificación numérica del 1 al 10 
  * y devuelva un mensaje de calificación (insuficiente, suficiente, 

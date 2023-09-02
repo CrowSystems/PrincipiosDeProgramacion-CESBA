@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Escribe un programa que convierta una cantidad de dólares 
  * a euros o viceversa, dependiendo de la selección del 

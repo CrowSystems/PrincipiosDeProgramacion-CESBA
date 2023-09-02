@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Crea un menú de opciones de comida 
  * (por ejemplo: hamburguesa, pizza, ensalada) utilizando 

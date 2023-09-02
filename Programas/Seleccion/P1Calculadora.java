@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Crea una calculadora simple que tome dos números y un operador (+, -, *, /) 
  * como entrada y muestre el resultado.

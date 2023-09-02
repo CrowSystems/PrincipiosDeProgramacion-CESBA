@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Crea un programa que tome un número del 1 al 7 como entrada y 
  * muestre el día de la semana correspondiente utilizando un switch case.

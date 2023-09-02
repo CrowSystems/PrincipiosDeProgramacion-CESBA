@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Desarrolla un programa que permita al usuario elegir una actividad para hacer 
  * durante el fin de semana (por ejemplo: ir al cine, hacer senderismo, leer) 

@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * 
  * Crea un programa que permita al usuario seleccionar una forma 

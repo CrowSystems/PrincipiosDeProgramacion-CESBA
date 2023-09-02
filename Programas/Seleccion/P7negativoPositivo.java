@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Escribe un programa que tome un número como entrada y muestre si 
  * es positivo, negativo o cero utilizando un switch case.

@@ -1,4 +1,4 @@
-package Ciclos;
+    package Seleccion;
 /*
  * Crea un traductor simple que convierta palabras 
  * básicas de inglés a español utilizando un switch case.

@@ -1,4 +1,4 @@
-package Ciclos;
+package Seleccion;
 /*
  * Desarrolla un programa que calcule el precio final 
  * después de aplicar un descuento dependiendo del tipo 
