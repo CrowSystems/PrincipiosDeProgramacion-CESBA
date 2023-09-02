@@ -24,6 +24,7 @@ import java.util.Scanner;
             Opcion = 3;
         }
         
+        //Condicional de selección Switch case.
         switch (Opcion) {
             case 1:
                 System.out.println("El número es cero");
