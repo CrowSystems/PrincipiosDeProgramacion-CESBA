@@ -1,4 +1,4 @@
-package CICLOS;
+package CICLOS.Ejemplos;
 
 import java.util.Scanner;
 
