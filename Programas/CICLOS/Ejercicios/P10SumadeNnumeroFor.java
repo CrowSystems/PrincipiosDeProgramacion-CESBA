@@ -10,10 +10,10 @@ public class P10SumadeNnumeroFor {
         int i, N, suma=0,opcion=1;
 
         do {
-            System.out.print("Ingresa el valor de N");
+            System.out.print("Ingresa el valor de N: ");
             N = sc.nextInt();
             
-            //Cicle for, almacena la suma que se va incrementando.
+            //Ciclo for, almacena la suma que se va incrementando.
             for(i=1; i <= N; i++) 
             {
                 suma = suma + i;
