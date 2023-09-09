@@ -14,5 +14,6 @@ public class EjemploWhile{
             System.out.println("Ingresa un numero");
             numero = sc.nextInt();
         }
+        sc.close();
     }
 }
