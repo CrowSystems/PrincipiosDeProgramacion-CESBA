@@ -1,15 +1,34 @@
-package POKEMON;
+package POKEMON;                                                            //Nombre de la carpeta de almacenamiento
+/*
+ * Author: Carlos Ivan de Jesus Mendoza
+ * Materia: Principios de programación.
+ * Grupo: 2A
+ * Escuela: CESBA
+ * 
+ */
 
+//Libreria para utilizar las herramientas de java para solicitar información al usuario
 import java.util.Scanner;
 
+//Inicio de programa
 public class POKEMON {
+    
+    //Inicio del metodo main para su ejecución
     public static void main(String[] args) {
     
-        Scanner sc = new Scanner(System.in);
+    //Declarción de variable de tipo scanner para almacenar información temporalmente.
+    Scanner sc = new Scanner(System.in);
+
+    //  Declaración de variables de usuario
     String pokemon,Seleccion;
-    String TipoPoke[] = new String[11];
+
+    //  Declaración de arreglo
+    String TipoPoke[] = new String[18];
+    
+    
     //String[] prueba = {"ACERO","VOLADOR"};
 
+    //Registro de contenido dentro del arreglo
     TipoPoke[0]="ACERO";
     TipoPoke[1]="VOLADOR";
     TipoPoke[2]="AGUA";
@@ -29,34 +48,236 @@ public class POKEMON {
     TipoPoke[16]="FANTASMA";
     TipoPoke[17]="SINIESTRO";
 
+    //almacenamiento de variables de selección de opciones.
     System.out.print("Selecciona un tipo de pokemon: ");
     pokemon = sc.nextLine().toUpperCase();
+    System.out.println("Que caracteristica deseas seleccionar: ");
+    Seleccion = sc.nextLine().toUpperCase();
+   
+   //Condicionales de selección dde información
+   //pokemon(variable de almacenamiento).equals(condición para igualar)(TipoPoke[0])(ubicación dentro del arreglo para )
+   if(pokemon.equals(TipoPoke[0]))
+    {       
+        if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
 
-    if(pokemon.equals(TipoPoke[0]))
-    {
-        System.out.println("Que caracteristica deseas seleccionar: ");
-        Seleccion = sc.nextLine().toUpperCase();
-        
-        //if(Seleccion.equals()))
-        System.out.println("EFECTIVO");
-        //System.out.println(prueba[0]);
-        //System.out.println(TipoPoke[3]+"\t"+TipoPoke[8]);
-        
-        System.out.println("NO EFECTIVO");
-        System.out.println(TipoPoke[3]+"\t"+TipoPoke[8])
-        ;
-        System.out.println("DEBIL");
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
 
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    
     }else if(pokemon.equals(TipoPoke[1])){
-        System.out.println("EFECTIVO");
-        
-        System.out.println("PLANTA, BICHO");
-        
-        System.out.println("NO EFECTIVO");
-        
-        System.out.println("DEBIL");
-    }else {
-        System.out.println("El tipo de pokemon no existe");
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[2])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[3])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[4])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[5])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[6])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[7])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[8])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[8])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
+    }else if(pokemon.equals(TipoPoke[9])){
+         if(Seleccion.equals("EFECTIVO")) {
+            System.out.println("EFECTIVO");
+            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+
+        } else if(Seleccion.equals("NO EFECTIVO")){
+            System.out.println("NO EFECTIVO");
+            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+
+        }else if(Seleccion.equals("DEBIL")){
+            System.out.println("DEBIL");
+            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+
+        }else if(Seleccion.equals("INMUNE")){
+            System.out.println("INMUNE");
+            System.out.println(TipoPoke[14]);
+
+        }else {
+            System.out.println("Error introuce un valor valido.");
+        }
     }
     sc.close();
     }
