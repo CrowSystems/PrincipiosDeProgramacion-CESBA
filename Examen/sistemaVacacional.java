@@ -29,7 +29,7 @@ public class sistemaVacacional {
         System.out.println("¿Cuantos años de servicio tiene el trabajador? ");
         antiguedad = sc.nextInt();
         System.out.println("¿Cual es la clave de su departamento? ");
-        clave = sc.nextLine();
+        clave = sc.nextInt();
 
         //Inicio de condiciones
         if(clave == 1)
