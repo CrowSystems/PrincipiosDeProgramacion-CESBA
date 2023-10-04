@@ -361,19 +361,19 @@ if(pokemon.equals(TipoPoke[0]))
     }else if(pokemon.equals(TipoPoke[15])){
         if(Seleccion.equals("EFECTIVO")) {
             System.out.println("EFECTIVO");
-            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+            System.out.println(TipoPoke[15]);
 
         } else if(Seleccion.equals("NO EFECTIVO")){
             System.out.println("NO EFECTIVO");
-            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+            System.out.println( TipoPoke[1]);
 
         }else if(Seleccion.equals("DEBIL")){
             System.out.println("DEBIL");
-            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+            System.out.println( TipoPoke[3]+"\t|"+TipoPoke[12]+"\t|"+TipoPoke[15]);
 
         }else if(Seleccion.equals("INMUNE")){
             System.out.println("INMUNE");
-            System.out.println(TipoPoke[14]);
+            System.out.println("NINGUNO");
 
         }else {
             System.out.println("Error introuce un valor valido.");
@@ -381,19 +381,19 @@ if(pokemon.equals(TipoPoke[0]))
     }else if(pokemon.equals(TipoPoke[16])){
         if(Seleccion.equals("EFECTIVO")) {
             System.out.println("EFECTIVO");
-            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+            System.out.println(TipoPoke[13]+"\t|"+TipoPoke[16]);
 
         } else if(Seleccion.equals("NO EFECTIVO")){
             System.out.println("NO EFECTIVO");
-            System.out.println(TipoPoke[0]+"\t|"+TipoPoke[2]+"\t|"+TipoPoke[6]+"\t|"+TipoPoke[10]);
+            System.out.println(TipoPoke[17]);
 
         }else if(Seleccion.equals("DEBIL")){
             System.out.println("DEBIL");
-            System.out.println(TipoPoke[9]+"\t|"+TipoPoke[10]+"\t|"+TipoPoke[11]);
+            System.out.println(TipoPoke[16]+"\t|"+TipoPoke[17]);
 
         }else if(Seleccion.equals("INMUNE")){
             System.out.println("INMUNE");
-            System.out.println(TipoPoke[14]);
+            System.out.println(TipoPoke[11]+"\t|"+TipoPoke[7]]);
 
         }else {
             System.out.println("Error introuce un valor valido.");
