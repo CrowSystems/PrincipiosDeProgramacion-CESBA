@@ -101,7 +101,7 @@ if(pokemon.equals(TipoPoke[0]))
     }else if(pokemon.equals(TipoPoke[2])){
         if(Seleccion.equals("EFECTIVO")) {
             System.out.println("EFECTIVO");
-            System.out.println(TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]);
+            System.out.println((TipoPoke[3]+"\t|"+TipoPoke[8]+"\t|"+TipoPoke[12]));
 
         } else if(Seleccion.equals("NO EFECTIVO")){
             System.out.println("NO EFECTIVO");
