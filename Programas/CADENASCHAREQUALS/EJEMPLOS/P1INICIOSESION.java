@@ -19,7 +19,7 @@ public class P1INICIOSESION {
         if(usuario.equals("ernesto") && password.equals("123456789")){
             System.out.println("Inicio de sesión correcto");
         } else {
-            System.out.println("Nombre de usuario i contraseña incorrectos");
+            System.out.println("Nombre de usuario y contraseña incorrectos");
         }
         sc.close();
     }
