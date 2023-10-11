@@ -1,7 +1,6 @@
 package $5Arreglos_Matrices.$2Ejercicios;
 
 import java.util.Scanner;
-
 /*
  * Author: Carlos Ivan de Jesus Mendoza
  * Grupo: 2A
