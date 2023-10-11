@@ -1,0 +1,12 @@
+1.- Crea un programa que calcule la suma de todos los elementos en un arreglo unidimensional de enteros. 
+2.- Desarrolla un programa que calcule el promedio de los valores en un arreglo unidimensional de números decimales. 
+3.- Escribe un programa que encuentre y muestre el valor máximo en un arreglo unidimensional de enteros. 
+4.- Diseña un programa que cuente cuántas veces aparece un valor específico en un arreglo unidimensional de cadenas. 
+5.- Crea una función que genere una matriz de identidad de tamaño n (n x n) utilizando arreglos bidimensionales. 
+6.- Implementa un programa que sume dos matrices bidimensionales y muestre el resultado. Escribe un programa que busque un valor específico en una matriz 
+    bidimensional y muestre su posición (fila y columna) si se encuentra.
+7.- SSSSDesarrolla un programa que tome una matriz bidimensional como entrada y devuelva su matriz transpuesta (filas se convierten en columnas y viceversa). 
+8.- Crea una función que multiplique dos matrices bidimensionales y devuelva el resultado. 
+9.- Asegúrate de que las dimensiones sean adecuadas para la multiplicación. 
+10.-Implementa un algoritmo de ordenación (por ejemplo, ordenación de burbuja o ordenación rápida) para ordenar una matriz bidimensional en función de 
+    una columna específica. El usuario debe elegir la columna por la que se ordenará.
