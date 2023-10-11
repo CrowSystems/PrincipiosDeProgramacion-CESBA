@@ -13,16 +13,16 @@ public class Arreglo3x3Letras {
 
         System.out.println("Ingresa los elementos de arreglo dibimencional 2 x 2: ");
         
-        for(i=0; i < 2; i++) {
-            for(j=0; j<2; j++){
+        for(i=0; i < 3; i++) {
+            for(j=0; j<3; j++){
                 System.out.println("Ingresa el valor");
                 numeros[i][j] = sc.nextInt();
             }
         }
         System.out.println("El arreglo bidimencional ingresado: ");
-        for(i=0; i<2;i++){
+        for(i=0; i<3;i++){
             System.out.println(" ");
-            for(j=0;j<2;j++){
+            for(j=0;j<3;j++){
                 System.out.println("El Arreglo en la posición: "+"["+i+","+j+"] es: "+numeros[i][j]);
             }
         }
