@@ -3,7 +3,8 @@
 3.- Escribe un programa que encuentre y muestre el valor máximo en un arreglo unidimensional de enteros. 
 4.- Diseña un programa que cuente cuántas veces aparece un valor específico en un arreglo unidimensional de cadenas. 
 5.- Crea una función que genere una matriz de identidad de tamaño n (n x n) utilizando arreglos bidimensionales. 
-6.- Implementa un programa que sume dos matrices bidimensionales y muestre el resultado. Escribe un programa que busque un valor específico en una matriz 
+6.- Implementa un programa que sume dos matrices bidimensionales y muestre el resultado. 
+7.- Escribe un programa que busque un valor específico en una matriz 
     bidimensional y muestre su posición (fila y columna) si se encuentra.
 7.- SSSSDesarrolla un programa que tome una matriz bidimensional como entrada y devuelva su matriz transpuesta (filas se convierten en columnas y viceversa). 
 8.- Crea una función que multiplique dos matrices bidimensionales y devuelva el resultado. 
