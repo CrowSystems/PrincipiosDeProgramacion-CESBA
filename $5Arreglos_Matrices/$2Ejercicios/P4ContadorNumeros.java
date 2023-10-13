@@ -31,5 +31,12 @@ public class P4ContadorNumeros {
 
         System.out.print("Que numero deseas buscar: ");
         k = sc.nextInt();
+
+        for(i=0; i < numeros.length; i++){
+            if(numeros[i]==k){
+                cont++;
+            }
+        }
+        System.out.print("El numero "+k+" esta en el arreglo "+cont+" veces");
     }
 }
