@@ -12,15 +12,14 @@ import java.util.Scanner;
 
 public class P8MatrizTranspuesta {
     public static void main(String[] args) {
-        
-    }//Declaración de la variable Scanner
+        //Declaración de la variable Scanner
         Scanner sc = new Scanner(System.in);
 
         //Declaración de variables simples
-        int i, j, N=0;
+        int i, j, N=0,aux1;
 
         //Solicitud de datos y asignación del tamaño de arreglo
-        System.out.print("Ingresa el tamaño del arreglo: ");
+        System.out.print("Ingresa el tamaño para el arreglo: ");
         N = sc.nextInt();
 
         //Declaración de areglo
