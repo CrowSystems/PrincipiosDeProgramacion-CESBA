@@ -24,6 +24,7 @@ public class P9MultiplicacionMatrices{
         //Delcaración de arreglo
         int arreglo1[][] = new int[N][N];
         int arreglo2[][] = new int[N][N];
+        int arreglo3[][] = new int[N][N];
 
         //Arrgelo 1
         for(i=0; i<N;i++){
@@ -40,8 +41,14 @@ public class P9MultiplicacionMatrices{
                 arreglo2[i][j] = sc.nextInt();
             }
         }
-        
-        
-    }
 
+        System.out.print("El sesultado de la multiplicación de los arreglos, ");
+        for(i=0; i<N; i++){
+            System.out.println("");
+            for(j=0; j<N; j++){
+                arreglo3[i][j] = arreglo1[i][j] * arreglo2[i][j];
+                System.out.print("["+arreglo3[i][j]+"]");
+            }
+        }
+    }
 }

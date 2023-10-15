@@ -32,7 +32,7 @@ public class P8MatrizTranspuesta {
                 arreglo[i][j] = sc.nextInt();
             }
         }
-
+        System.out.println(" ");
         System.out.println("Matriz transpuesta: ");
         //Busqueda del arreglo
         for(i=0;i<N;i++){
