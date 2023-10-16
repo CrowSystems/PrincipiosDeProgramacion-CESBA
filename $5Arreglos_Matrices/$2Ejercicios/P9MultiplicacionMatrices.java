@@ -16,10 +16,10 @@ public class P9MultiplicacionMatrices{
         Scanner sc=new Scanner(System.in);
 
         //Declaración de variables simples
-        int i,j, mult, aux1, aux2, N=0;
+        int i,j, N=0;
 
 
-        System.out.println("Ingresa el tamaño de tu arreglo 1: ");
+        System.out.println("Ingresa el tamaño de tu arreglo: ");
         N = sc.nextInt();
         //Delcaración de arreglo
         int arreglo1[][] = new int[N][N];
@@ -44,7 +44,7 @@ public class P9MultiplicacionMatrices{
 
         System.out.print("El sesultado de la multiplicación de los arreglos, ");
         for(i=0; i<N; i++){
-            System.out.println("");
+            System.out.println("   ");
             for(j=0; j<N; j++){
                 arreglo3[i][j] = arreglo1[i][j] * arreglo2[i][j];
                 System.out.print("["+arreglo3[i][j]+"]");
