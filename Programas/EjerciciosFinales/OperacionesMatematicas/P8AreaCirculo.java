@@ -1,5 +1,5 @@
 package EjerciciosFinales.OperacionesMatematicas;
 
-public class P7PotenciaDeUnNumero {
+public class P8AreaCirculo {
     
 }
