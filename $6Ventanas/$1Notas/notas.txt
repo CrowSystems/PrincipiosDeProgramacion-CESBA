@@ -1,0 +1,19 @@
+¿Que es una herencia?
+
+Tipos de herencia
+    - Simple o única.
+    - Herencia múltiple.
+    - Multiple nivel.
+    - Jerárquica.
+
+Modifiadores de Acceso.
+Los modificadores de acceso nos introducen al concepto de encapsulamiento.
+
+Private
+El modificador private en Java es el más restrictivo de todos, basicmmente cualquier elemento
+
+Public
+El modificador de acceso public es el más permisivo de todos,
+básicamente public es lo contrario a private en todos los aspectos
+(lógicamente), esto quiere decir que si un componente de una clase
+es public, tendremos
