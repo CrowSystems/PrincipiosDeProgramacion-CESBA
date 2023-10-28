@@ -1,6 +1,6 @@
 package $6Ventanas.$2Clase;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class P2Formulario extends JFrame {
     public P2Formulario(){
