@@ -6,7 +6,7 @@ public class P5NumeroParImpar {
     public static void main(String[] args) {
 
         Scanner sc =  new Scanner(System.in);
-        int num1, num2, total;
+        int num1;
 
         System.out.println("*******Numero Par o Ipar************");
 
