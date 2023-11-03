@@ -1,4 +1,4 @@
-package EjerciciosFinales.OperacionesMatematicas;
+package $10_EjerciciosFinales.OperacionesMatematicas;
 
 import java.util.Scanner;
 

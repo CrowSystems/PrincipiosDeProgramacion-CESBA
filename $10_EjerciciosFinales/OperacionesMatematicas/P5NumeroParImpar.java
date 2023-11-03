@@ -1,4 +1,4 @@
-package EjerciciosFinales.OperacionesMatematicas;
+package $10_EjerciciosFinales.OperacionesMatematicas;
 
 import java.util.Scanner;
 
@@ -19,6 +19,5 @@ public class P5NumeroParImpar {
             System.out.println("El numero es impar");
         }
         sc.close();
-    }
-    
+    }  
 }
