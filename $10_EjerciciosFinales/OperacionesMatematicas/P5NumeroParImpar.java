@@ -13,7 +13,7 @@ public class P5NumeroParImpar {
         System.out.println("Ingresa el numero a evaluar: ");
         num1 = sc.nextInt();
 
-        if(num1 >= mod(num2)){
+        if(num1%2 == 0){
             System.out.println("El numero es par");
         } else {
             System.out.println("El numero es impar");
