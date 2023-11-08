@@ -1,4 +1,4 @@
-package $10_EjerciciosFinales.OperacionesMatematicas;
+package $10_EjerciciosFinales.NIVELX;
 //Calcular la potencia de un número (base^exponente).
 import java.util.Scanner;
 

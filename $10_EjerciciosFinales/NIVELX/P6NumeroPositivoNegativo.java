@@ -1,4 +1,4 @@
-package $10_EjerciciosFinales.OperacionesMatematicas;
+package $10_EjerciciosFinales.NIVELX;
 //Verificar si un número es positivo, negativo o cero.
 
 import java.util.Scanner;

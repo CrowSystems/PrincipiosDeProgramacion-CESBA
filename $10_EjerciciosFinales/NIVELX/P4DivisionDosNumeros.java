@@ -1,4 +1,4 @@
-package $10_EjerciciosFinales.OperacionesMatematicas;
+package $10_EjerciciosFinales.NIVELX;
 
 import java.util.Scanner;
 
