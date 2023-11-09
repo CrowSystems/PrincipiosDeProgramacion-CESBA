@@ -22,7 +22,7 @@ public class P10AreayPerimetrodeTriangulo {
         perimetro = base * 3;
 
         System.out.print("El area del triangulo es: "+area);
-        System.out.print("El perimetro del triangulo es: "+perimetro);
+        System.out.println("El perimetro del triangulo es: "+perimetro);
     }
     
 }
