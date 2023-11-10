@@ -23,5 +23,7 @@ public class P12AreayPerimetrodeCuadrado {
 
         System.out.println("El area del rectangulo es: "+area);
         System.out.println("El perimetro del rectangulo es: "+perimetro);
+
+        sc.close();
     }
 }
