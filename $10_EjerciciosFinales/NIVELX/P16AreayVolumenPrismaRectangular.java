@@ -1,5 +1,5 @@
-package _EjerciciosFinales.NIVELX;
+package $10_EjerciciosFinales.NIVELX;
 
-public class 16AreayVolumenPrisma {
+public class P16AreayVolumenPrismaRectangular {
     
 }
