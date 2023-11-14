@@ -1,5 +1,4 @@
 package EXCEPCIONES;
-
 public class ManejoExcepciones {
     public static void main(String[] args) {
         try {
@@ -11,13 +10,10 @@ public class ManejoExcepciones {
         } finally {
             //Este bloque para mensaje de finalización
             System.out.println("Operacion Completada");
-
         }
     }
-
     public static int dividir(int numerador, int denominador) {
         //Metodo que lanza la excepción
         return numerador / denominador;
-    }
-    
+    } 
 }
