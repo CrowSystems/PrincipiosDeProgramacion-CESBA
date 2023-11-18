@@ -1,8 +1,8 @@
 package $10_EjerciciosFinales.NIVELY;
 /*
- * Calcular el mínimo común múltiplo (MCM) de dos números enteros.
+ * Verificar si un número es primo.
  */
-public class P21CalcularMCD {
+public class P22VerificaSiEsPrimo {
     public static void main(String[] args) {
         
     }

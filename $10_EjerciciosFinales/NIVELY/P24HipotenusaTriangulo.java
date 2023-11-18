@@ -1,8 +1,8 @@
 package $10_EjerciciosFinales.NIVELY;
 /*
- * Calcular el mínimo común múltiplo (MCM) de dos números enteros.
+ * Calcular la hipotenusa de un triángulo rectángulo.
  */
-public class P21CalcularMCD {
+public class P24HipotenusaTriangulo {
     public static void main(String[] args) {
         
     }

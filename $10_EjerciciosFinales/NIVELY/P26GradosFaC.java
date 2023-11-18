@@ -1,8 +1,8 @@
 package $10_EjerciciosFinales.NIVELY;
 /*
- * Calcular el mínimo común múltiplo (MCM) de dos números enteros.
+ * Convertir grados Fahrenheit a grados Celsius.
  */
-public class P21CalcularMCD {
+public class P26GradosFaC {
     public static void main(String[] args) {
         
     }
