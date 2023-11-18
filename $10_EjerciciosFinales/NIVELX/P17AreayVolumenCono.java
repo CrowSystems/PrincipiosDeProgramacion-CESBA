@@ -23,7 +23,7 @@ public class P17AreayVolumenCono {
 
         System.out.println("El valor del area es: "+area);
         System.out.println("El valor del volumen: "+volumen);
-
         
+        sc.close();
     }    
 }
