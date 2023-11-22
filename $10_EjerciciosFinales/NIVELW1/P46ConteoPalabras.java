@@ -5,5 +5,6 @@ package $10_EjerciciosFinales.NIVELW1;
 public class P46ConteoPalabras {
     public static void main(String[] args) {
         
+        
     }
 }
