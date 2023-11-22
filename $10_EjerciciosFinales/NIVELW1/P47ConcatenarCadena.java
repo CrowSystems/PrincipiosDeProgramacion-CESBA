@@ -1,9 +1,10 @@
 package $10_EjerciciosFinales.NIVELW1;
 /*
- * Contar la cantidad de palabras en una cadena.
+ * Concatenar dos cadenas.
  */
-public class P46ConteoPalabras {
+public class P47ConcatenarCadena {
     public static void main(String[] args) {
         
     }
+    
 }
