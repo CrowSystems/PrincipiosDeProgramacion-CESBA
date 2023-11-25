@@ -22,7 +22,5 @@ public class P28FactorialNumero {
         System.out.println("El factorial de "+a+" es: "+factorial);
 
         sc.close();
-
     }
-    
 }
