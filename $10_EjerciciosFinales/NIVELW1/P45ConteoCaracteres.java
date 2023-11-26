@@ -14,9 +14,9 @@ public class P45ConteoCaracteres {
 
         System.out.println("Introduce la frace para el conteo: ");
         a = sc.nextLine();
-
+        //length() es un metodo para contar el número de caracteres dentro de una variable.
         int contador = a.length();
-
+        
         System.out.println("La frace contiene: "+ contador +" Caracteres");
         sc.nextLine();
     }
