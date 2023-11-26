@@ -8,19 +8,16 @@ import java.util.Scanner;
 public class P45ConteoCaracteres {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String a, b;
+        String a;
 
-        System.out.println("***** Concaten dos lineas de caracteres *****");
+        System.out.println("***** Conteo de caracteres dos lineas de caracteres *****");
 
-        System.out.println("Introduce el primer caracter: ");
+        System.out.println("Introduce la frace para el conteo: ");
         a = sc.nextLine();
 
-        System.out.println("Introduce el segundo caracter: ");
-        b = sc.nextLine();
+        int contador = a.length();
 
-        System.out.println("Las lineas de caracteres quedan de la siguiente manera: ");
-        System.out.println(a + " " +b);
-
+        System.out.println("La frace contiene: "+ contador +" Caracteres");
         sc.nextLine();
     }
 }
