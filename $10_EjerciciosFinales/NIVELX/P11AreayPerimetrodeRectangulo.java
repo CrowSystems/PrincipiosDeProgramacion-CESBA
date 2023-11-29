@@ -14,7 +14,7 @@ public class P11AreayPerimetrodeRectangulo {
 
         System.out.println("Ingresa el valor de uno de los lados: ");
         num1 = sc.nextDouble();
-
+        //Math.pow metodo para obtener una potencia
         area = Math.pow(num1, 2);
         perimetro = 4 * num1;
 

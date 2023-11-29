@@ -14,7 +14,7 @@ public class P14AreayVolumenCilindro {
 
         System.out.println("Introduce el valor de la altura: ");
         altura = sc.nextDouble();
-
+        //Formulas para obtener el area y volumen de un cilindro
         volumen = Math.PI * Math.pow(radio,2) * altura;
         area = (2 * Math.PI) * (radio* (radio + altura));
 

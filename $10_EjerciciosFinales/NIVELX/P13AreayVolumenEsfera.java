@@ -13,7 +13,8 @@ public class P13AreayVolumenEsfera {
         System.out.println("Introduce el valor del radio: ");
         radio = sc.nextDouble();
 
-
+        //Math.PI metodo para obtener el valor de PI
+        //Formulas para obtener el area y el volumen de una esfera
         area = (4 * Math.PI) * (Math.pow(radio, 2));
         volumen = (4 * Math.PI * Math.pow(radio,3))/3;
 

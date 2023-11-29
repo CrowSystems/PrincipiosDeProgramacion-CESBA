@@ -15,7 +15,7 @@ public class P16AreayVolumenPrismaRectangular {
 
         System.out.println("Introduce el valor de lo ancho: ");
         c = sc.nextDouble();
-
+        //Formulas para el area y volumen de un Prisma Rectangular
         volumen = (b * c) * a;
         area = 2*((b * c)+(b * a)+(a * c));
         

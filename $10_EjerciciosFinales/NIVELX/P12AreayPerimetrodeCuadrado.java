@@ -17,8 +17,9 @@ public class P12AreayPerimetrodeCuadrado {
 
         System.out.println("Ingresa la altura del rectangulo: ");
         altura = sc.nextDouble();
-
+        //Aplicación de furmula de un triangulo
         area =  base * altura;
+        //Aplicación de la formula del perimetro de un rectangulo
         perimetro = (2 * base) + (altura * 2);
 
         System.out.println("El area del rectangulo es: "+area);
