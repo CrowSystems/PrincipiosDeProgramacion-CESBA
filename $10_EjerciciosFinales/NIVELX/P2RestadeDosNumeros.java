@@ -13,7 +13,7 @@ public class P2RestadeDosNumeros {
 
         System.out.println("Ingresa el numero 2: ");
         num2 = sc.nextInt();
-
+        //resta de dos variables
         total = num1 - num2;
         System.out.println("Resultado "+total);
 
