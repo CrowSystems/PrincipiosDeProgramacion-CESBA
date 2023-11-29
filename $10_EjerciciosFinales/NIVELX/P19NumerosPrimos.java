@@ -6,7 +6,7 @@ public class P19NumerosPrimos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a, i;
-
+        //Codicional Do con esta condicional evaluamos si el 
         do {
             System.out.print("Introduce un valor mayor a 0 a evaluar: ");
             a = sc.nextInt();  
