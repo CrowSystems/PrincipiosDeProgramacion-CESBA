@@ -14,7 +14,7 @@ public class P59NnumerosWhiles {
         System.out.println("Ingresa hasta que numero deseas visualizar: ");
         n = sc.nextInt();
 
-        while (i<n) {
+        while (i<=n) {
             System.out.println(i+" es natural");
             i++;
         }
